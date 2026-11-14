@@ -12,5 +12,5 @@
    14.11.2025
 
 7. [*]: api-connect front-back host/api/
-8. [*]: install front environment
+8. [+]: install front environment
 9. [*]: install backend BD-sql
