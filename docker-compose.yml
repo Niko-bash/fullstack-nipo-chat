@@ -1,0 +1,18 @@
+services:
+  backend:
+    image: my-backend
+    container_name: chat-backend
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    image: my-frontend
+    container_name: chat-frontend
+    restart: unless-stopped
+    ports:
+      - '80:80'
+    depends_on:
+      - backend
