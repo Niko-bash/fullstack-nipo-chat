@@ -1,29 +1,22 @@
-import { Button, MantineProvider } from '@mantine/core'
+import { ROUTER_CONFIG } from '@/shared/config/router-config'
+import { MantineProvider } from '@mantine/core'
 import '@mantine/core/styles.css'
-import { useEffect } from 'react'
+import { Link, Outlet } from 'react-router'
 
 function App() {
-	useEffect(() => {
-		const fetchTest = async () => {
-			const response = await fetch('/api')
-
-			if (!response.ok) {
-				throw new Error('Error to server')
-			}
-
-			const data = await response.json()
-
-			console.log(data)
-		}
-
-		fetchTest()
-	}, [])
-
 	return (
 		<MantineProvider>
-			<div>123</div>
-
-			<Button>123</Button>
+			<div>
+				<header>
+					<nav>
+						<Link to={ROUTER_CONFIG.HOME_PAGE}>main</Link>
+						<Link to={ROUTER_CONFIG.SETTINGS_PAGE}>settings</Link>
+					</nav>
+				</header>
+				<main>
+					<Outlet />
+				</main>
+			</div>
 		</MantineProvider>
 	)
 }
