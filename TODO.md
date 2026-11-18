@@ -1,3 +1,20 @@
+    Functional requirements:
+
+    Front:
+
+    []: auth and confirm auth(Auth 2.0 confirm email)
+    []: adding users(friends) and views friends
+    []: create chat and addings users in chat
+    []: create message in chat
+
+    Back:
+
+    []: savings chats and messages(realize resilience history) maybe kafka
+
+    No-functional:
+
+===============================================================
+
     12.11.2026
 
     Full-stack Todo
@@ -11,6 +28,11 @@
 
    14.11.2025
 
-7. [*]: api-connect front-back host/api/
+7. [+]: api-connect front-back host/api/
 8. [+]: install front environment
-9. [*]: install backend BD-sql
+9. [+]: install backend BD-sql and environment
+
+   19.11.2025
+
+10. [*]: settings FSD template in frontend
+11. [*]: apply start react-router in frontend
