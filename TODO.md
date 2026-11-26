@@ -41,7 +41,7 @@
 11. [+]: apply start react-router in front
 12. [+]: adding layout page in front
 13. [+]: setup error-boundary in front
-14. [*]: adding ApiResponse type in front
+14. [+]: adding ApiResponse type in front
 15. [*]: create User prisma in back
 16. [*]: create auth-services jwt-token in back
 17. [*]: create auth number-phone and confirm sms in back
