@@ -11,11 +11,14 @@
 
     []: savings chats and messages(realize resilience history) maybe kafka
 
-    No-functional:
-
 ===============================================================
 
     12.11.2026
+
+    Notes:
+
+    - @jadedm/nestjs-verify-twilio and verify-postgress for backend auth through OTP SMS
+
 
     Full-stack Todo
 
@@ -34,5 +37,16 @@
 
    19.11.2025
 
-10. [*]: settings FSD template in frontend
-11. [*]: apply start react-router in frontend
+10. [+]: settings FSD template in front
+11. [+]: apply start react-router in front
+12. [+]: adding layout page in front
+13. [+]: setup error-boundary in front
+14. [+]: adding ApiResponse type in front
+15. [*]: create User prisma in back
+16. [*]: create auth-services jwt-token in back
+17. [*]: create auth number-phone and confirm sms in back
+18. [*]: create form auth in front
+
+    27.11.2025
+
+19. [*]: use PWA
